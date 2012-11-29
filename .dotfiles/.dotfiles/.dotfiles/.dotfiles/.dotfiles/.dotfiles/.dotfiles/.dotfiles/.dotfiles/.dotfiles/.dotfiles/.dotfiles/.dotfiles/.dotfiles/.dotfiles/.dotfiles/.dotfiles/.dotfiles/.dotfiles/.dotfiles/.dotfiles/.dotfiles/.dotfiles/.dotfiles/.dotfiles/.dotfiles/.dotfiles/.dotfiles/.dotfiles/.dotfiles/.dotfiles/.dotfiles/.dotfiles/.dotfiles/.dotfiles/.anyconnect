@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AnyConnectPreferences>
+<DefaultUser>sbeard</DefaultUser>
+<DefaultSecondUser></DefaultSecondUser>
+<ClientCertificateThumbprint></ClientCertificateThumbprint>
+<ServerCertificateThumbprint>BDC63B3D99CBB41004114E5D9AF4F46EDD35447A</ServerCertificateThumbprint>
+<DefaultHost>vpn.ensequence.com</DefaultHost>
+<DefaultGroup>Corporate_VPN</DefaultGroup>
+<ProxyHost></ProxyHost>
+<ProxyPort></ProxyPort>
+<SDITokenType>none</SDITokenType>
+<ControllablePreferences></ControllablePreferences>
+</AnyConnectPreferences>

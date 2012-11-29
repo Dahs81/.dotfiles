@@ -1,0 +1,18 @@
+[color]
+	status = auto
+	branch = auto
+[user]
+	email = Shad.Beard@ensequence.com
+	name = Shad Beard
+[alias]
+	br = branch
+	co = checkout -m
+	gs = status
+	ga = add
+	alias = !git config --list | grep 'alias\\.' | sed 's/alias\\.\\([^=]*\\)=\\(.*\\)/\\1\\\t => \\2/' | sort
+	gl="git log --graph --pretty=format:'%Cred%h%Creset %C(cyan)%an%Creset - %C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative"
+	gc = git commit -m
+	go = checkout
+	gd = diff
+[core]
+	excludesfile = /Users/sbeard/.gitignore_global

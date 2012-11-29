@@ -1,0 +1,24 @@
+{
+  "name": "crash"
+, "description": "node-crash causes crash node platform intentionally. Only for experimental purposes."
+, "version": "1.0.1"
+, "author": "Seiya Konno <nulltask@gmail.com>"
+, "keywords": ["crash", "evil"]
+, "repository": "git://github.com/nulltask/node-crash.git"
+, "main": "index"
+, "bin": {
+    "crash": "./bin/crash"
+  }
+, "devDependencies": {
+    "mocha": "*"
+  , "should": "*"
+  }
+, "engines": {
+    "node": "0.6"
+  }
+, "scripts": {
+    "preinstall": "node-waf configure build"
+  , "test": "mocha"
+  }
+}
+
